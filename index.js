@@ -1,6 +1,6 @@
 function getFirstSelector(selector) {
   var option = "'"+ selector + "'"
-  return document.querySelector(selector);
+  return document.querySelector(option);
 }
 
 function nestedTarget() {
