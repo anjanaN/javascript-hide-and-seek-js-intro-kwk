@@ -1,4 +1,5 @@
 function getFirstSelector(selector) {
+  var option = "'"+ selector + "'"
   return document.querySelector(selector);
 }
 
